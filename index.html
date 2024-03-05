@@ -7,7 +7,258 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <h1>Natalie Hurst-Knight</h1>
-    <h2>Web Developer</h2>
+    <header class="c-header">
+        <a class="c-header__logo" href="#">
+            <h1>Natalie Hurst-Knight</h1>
+        </a>
+        <nav class="c-header__nav">
+            <ul class="c-header__list desktop-only">
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#about">About</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#exp">Experience</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#tech">Skills</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#projects">Projects</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <span>
+            <img class="menu-trigger c-header__icon c-header__icon--open icon desktop-hide" src="images/svgs/burger.svg" alt=""/>
+        </span>
+
+    </header>
+    <nav class="c-menu">
+        <ul class="c-menu__list">
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="#about">About</a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="#exp">Experience</a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="#skills">My Skill Set</a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="#projects">Projects</a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="#contact">Contact</a>
+            </li>
+        </ul>
+        <!-- <span> -->
+            <img class="c-menu__close c-menu__icon c-menu__icon--close icon" src="images/svgs/cross.svg" alt=""/>
+        <!-- </span> -->
+    </nav>
+    <main>
+        <section class="c-section c-section--hero">
+            <div class="c-section__content">
+                <h1>Natalie Hurst-Knight</h1>
+            </div>
+        </section>
+
+        <section class="c-section c-section--about">
+            <h2 class="c-section__title">About</h2>
+            <div class="c-section__content">
+                <p>Hi, I'm Natalie. I'm a Web Developer based in London.<br><br>  
+                    Lorem amet minim ipsum proident non dolor nulla in non fugiat excepteur aliquip. Ex magna duis culpa irure aute dolor. Deserunt ut sint amet cillum laborum excepteur ex ullamco dolore dolor Lorem. Sit aute ipsum mollit nisi est deserunt excepteur id qui ad nisi in nostrud. Elit mollit enim deserunt laborum pariatur non eu veniam Lorem est id amet pariatur. Exercitation nulla fugiat mollit aliquip esse enim sunt excepteur sunt. Veniam dolore elit elit do ut.</p>
+            </div>
+        </section>
+
+        <section class="c-section c-section--skills">
+            <h2 class="c-section__title">My skill set</h2>
+            <div class="c-section__content c-section__content--skills">
+                <div class="c-card c-card--skills">
+                    <h3 class="c-card__title">Front-End</h3>
+                    <ul class="c-card__list">
+                        <li class="c-card__item">HTML</li>
+                        <li class="c-card__item">CSS</li>
+                        <li class="c-card__item">JavaScript</li>
+                        <li class="c-card__item">Sass</li>
+                        <li class="c-card__item">React</li>
+                        <li class="c-card__item">Vue.js</li>
+                        <li class="c-card__item">Twig</li>
+                        
+                    </ul>
+                </div>
+                <div class="c-card c-card--skills">
+                    <h3 class="c-card__title">Back-End</h3>
+                    <ul class="c-card__list">
+                        <li class="c-card__item">Python</li>
+                        <li class="c-card__item">Express</li>
+                        <li class="c-card__item">Django</li>
+                        <li class="c-card__item">Node.js</li>
+                    </ul>
+                </div>
+                <div class="c-card c-card--skills">
+                    <h3 class="c-card__title">Databases</h3>
+                    <ul class="c-card__list">
+                        <li class="c-card__item">MongoDB</li>
+                        <li class="c-card__item">PostgreSQL</li>
+                        <li class="c-card__item"></li>
+                    </ul>
+                </div>
+                <div class="c-card c-card--skills">
+                    <h3 class="c-card__title">Cloud</h3>
+                    <ul class="c-card__list">
+                        <li class="c-card__item">Netlify</li>
+                        <li class="c-card__item">Heroku</li>
+                        <li class="c-card__item">Servd</li>
+                    </ul>
+                </div>
+                <div class="c-card c-card--skills">
+                    <h3 class="c-card__title">Tools</h3>
+                    <ul class="c-card__list">
+                        <li class="c-card__item">Git</li>
+                        <li class="c-card__item">GitHub</li>
+                        <li class="c-card__item">NPM</li>
+                        <li class="c-card__item">Slack</li>
+                        <li class="c-card__item">Trello</li>
+                        <li class="c-card__item">Teamwork</li>
+                        <li class="c-card__item">Figma</li>
+                        <li class="c-card__item">VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="c-section c-section--experience">
+            <h2 class="c-section__title">Experience</h2>
+            <div class="c-timeline">
+                <div class="c-timeline__card c-timeline__card--left c-card c-card--timeline">
+                    <img class="c-card__logo" src="images/supercool-logo.png" alt="Supercool logo">
+                    <h3 class="c-card__title">Junior Front End Web Developer</h3>
+                    <p class="c-card__posttitle">Apr 2022 - Present</p>
+                    <ul>
+                        <li>
+                            Working with developers and designers to create and maintain accessible websites that match designs and follow best practices.
+                        </li>
+                        <li>
+                            Creation and maintenance of frontend technologies within the Craft CMS environment
+                        </li>
+                        <li>  
+                            Creation and maintenance of HTML and CSS styling across a range of environments including 3rd party applications and systems
+                        </li>
+                        <li>
+                            Replicate bug and test solutions
+                        </li> 
+                        <li>
+                            Communicate technical issues and solutions with wider team
+                        </li>
+                    </ul>
+    
+                    <h3 class="c-card__title">Trainee Front End Web Developer</h3>
+                    <p class="c-card__posttitle">Mar 2021 - Apr 2022</p>
+                    <p>
+                        Qui cillum velit dolor cupidatat sint ex qui minim sint tempor id. Cillum culpa aliquip nostrud sit. Laborum adipisicing minim quis dolor fugiat non veniam velit est minim deserunt sunt. Laborum deserunt in ad duis dolore nulla reprehenderit Lorem esse occaecat. Culpa deserunt velit do minim sunt excepteur est ullamco consequat elit aute pariatur.
+                    </p>
+                </div>
+                <div class="c-timeline__card c-timeline__card--right c-card c-card--timeline">
+                    <img class="c-card__logo" src="images/general-assembly-logo.png" alt="General Assembly logo">
+                    <h3 class="c-card__title">Software Engineering Immersive Bootcamp</h3>
+                    <p class="c-card__posttitle">Aug 2020 - Oct 2020</p>
+                    <p>
+                        After discovering coding in 2019, I decided that I wanted to pursue a career as a Developer and decided to enrol on the SEI bootcamp at General Assembly. I really enjoyed my time at GA as it allowed me to collaborate with talented course mates on challenging projects. <br><br> 
+                        A typical day-to-day started with morning stand-up, followed by instructor-led remote code-along sessions and pair coding labs, which has prepared me to work in an Agile environment. At the end of each module, we applied our new skills and learnings by completing a solo or group project.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="c-section c-section--projects">
+            <h2 class="c-section__title">Projects</h2>
+            <div class="c-card c-card--project">
+                <img class="c-card__image" src="" alt="">
+                <h3 class="c-card__title"></h3>
+                <p class="c-card__posttitle"></p>
+                <p class="c-card__text">
+                </p>
+                <div class="c-card__links">
+
+                </div>
+            </div>
+            <div class="c-card c-card--project">
+                <img class="c-card__image" src="" alt="">
+                <h3 class="c-card__title"></h3>
+                <p class="c-card__posttitle"></p>
+                <p class="c-card__text">
+                </p>
+                <div class="c-card__links">
+
+                </div>
+            </div>
+            <div class="c-card c-card--project">
+                <img class="c-card__image" src="" alt="">
+                <h3 class="c-card__title"></h3>
+                <p class="c-card__posttitle"></p>
+                <p class="c-card__text">
+                </p>
+                <div class="c-card__links">
+
+                </div>
+            </div>
+            <div class="c-card c-card--project">
+                <img class="c-card__image" src="" alt="">
+                <h3 class="c-card__title"></h3>
+                <p class="c-card__posttitle"></p>
+                <p class="c-card__text">
+                </p>
+                <div class="c-card__links">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="c-section c-section--contact">
+            <h2 class="c-section__title">Get in touch!</h2>
+            <!-- TODO: set-up backend functionality to handle email submissions  -->
+            <div class="c-contact-form">
+                <form action="/tbc" method="post">
+                    <ul>
+                      <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                      </li>
+                      <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                      <li class="button">
+                          <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+                  
+            </div>
+        </section>
+
+        <footer class="c-section c-section--footer">
+            <div class="c-con">
+                <a href="https://www.linkedin.com/in/nataliehurst-knight/" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="/app/images/svgs/linkedin.svg" alt="">
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://github.com/nhurstknight" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="/app/images/svgs/github.svg" alt="">
+                </a>
+            </div>
+            <div class="email">
+            <p>nhurst-knight@hotmail.com</p> 
+            </div>
+            <span>Designed and built by Natalie Hurst-Knight 2024</span>
+        </footer>
+    </main>    
 </body>
 </html>
